@@ -120,7 +120,7 @@ func main() {
 			}
 		}
 		var wetherContinue string
-		fmt.Print(("是否录入下一个（y/n）？"))
+		fmt.Print("是否录入下一个（y/n）？")
 		fmt.Scanln(&wetherContinue)
 		if wetherContinue != "y" {
 			break
